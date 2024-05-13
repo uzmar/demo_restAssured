@@ -1,0 +1,13 @@
+*/node_modules
+**/*.iml
+/.env
+**/.idea
+**/node_trace*
+**/*.png
+*.log
+**/.DS_Store
+**/.talismanrc
+**/allure-results
+**/allure-reports
+**/allure-results
+**/target

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-13T13:51:13 IST" name="Suite" finished-at="2024-05-13T13:51:14 IST" duration-ms="1419">
+    <groups>
+      <group name="Regression">
+        <method signature="createUsersTest.testCreateUser()[pri:0, instance:createUsersTest@d35dea7]" name="testCreateUser" class="createUsersTest"/>
+        <method signature="createUsersTest.testGetListOfUsers()[pri:1, instance:createUsersTest@d35dea7]" name="testGetListOfUsers" class="createUsersTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="createUsersTest.testCreateUser()[pri:0, instance:createUsersTest@d35dea7]" name="testCreateUser" class="createUsersTest"/>
+        <method signature="createUsersTest.testGetListOfUsers()[pri:1, instance:createUsersTest@d35dea7]" name="testGetListOfUsers" class="createUsersTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-05-13T13:51:13 IST" name="Test" finished-at="2024-05-13T13:51:14 IST" duration-ms="1419">
+      <class name="createUsersTest">
+        <test-method signature="testCreateUser()[pri:0, instance:createUsersTest@d35dea7]" started-at="2024-05-13T13:51:13 IST" name="testCreateUser" description="demo test" finished-at="2024-05-13T13:51:14 IST" duration-ms="1242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testGetListOfUsers()[pri:1, instance:createUsersTest@d35dea7]" started-at="2024-05-13T13:51:14 IST" name="testGetListOfUsers" description="demo test" finished-at="2024-05-13T13:51:14 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetListOfUsers -->
+      </class> <!-- createUsersTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
